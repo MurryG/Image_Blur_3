@@ -56,19 +56,3 @@ class Image
     end
   end
 end
-
-image = Image.new([
-  [0, 0, 0, 0, 0],
-  [0, 0, 0, 0, 0],
-  [0, 0, 0, 1, 0],
-  [0, 0, 0, 0, 0],
-  [0, 0, 0, 0, 0],
-  [0, 0, 0, 0, 0],
-  [0, 0, 0, 0, 0]
-])
-
-image.output_image
-puts
-image.blur(3)
-
-image.output_image
